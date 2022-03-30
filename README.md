@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+<h1 align="center"> Sistema de Chamados </h1>
+<p >
+<img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Tópicos 
 
-## Available Scripts
+- [Descrição do projeto](#descrição-do-projeto)
 
-In the project directory, you can run:
+- [Funcionalidades](#funcionalidades)
 
-### `yarn start`
+- [Ferramentas utilizadas](#ferramentas-utilizadas)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Abrir e rodar o projeto](#abrir-e-rodar-o-projeto)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `yarn test`
+## Descrição do projeto 
+Projeto desenvolvido para portifolio. O sistema de chamados tem como função gerenciar chamados, aonde o usuário possa cadastrar o cliente e registra um chamado para ele.
+![Screenshot_2](https://user-images.githubusercontent.com/54758350/160866249-2dc94d0b-6a2a-4e8e-95ac-2c0b123694ef.png)
+![Screenshot_1](https://user-images.githubusercontent.com/54758350/160866262-026a768c-6722-4254-a155-6560edbc3dc5.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Funcionalidades
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+:heavy_check_mark: `Funcionalidade 1:` Realizar cadastro do usuário
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+:heavy_check_mark: `Funcionalidade 2:` Armazenar cliente e chamados no banco firestore
 
-### `yarn eject`
+:heavy_check_mark: `Funcionalidade 3:` Permitir que usuário exclua ou edite o chamado
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Ferramentas utilizadas
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+As seguintes ferramentas foram usadas na construção do projeto:
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [firebase](https://firebase.google.com/?hl=pt)
+- [React.Js](https://pt-br.reactjs.org/)
+- [JavaScript](https://www.javascript.com/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  
+# Abrir e rodar o projeto
+## Clone este repositório
+$ git clone <https://github.com/franciscoMarcello/Sistema-Chamados.git>
 
-### Code Splitting
+Acesse a pasta do projeto no terminal/cmd
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Instale as dependências
+$ yarn
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Execute a aplicação em modo de desenvolvimento
+$ yarn start
 
-### Making a Progressive Web App
+## O servidor inciará na porta:3000 - acesse <http://localhost:3000>
+ou
+# Acesse:
+<https://sistema-chamados-brown.vercel.app/>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  
+  
+  
+  
+  
